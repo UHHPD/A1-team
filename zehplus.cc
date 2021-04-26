@@ -12,6 +12,7 @@ int main()
     int b, c;
     fin >> b >> c;
     int a = b + c;
-    std::cout<< a << std::endl;
+    //std::cout<< a << std::endl;
+    fout << a << std::endl;
   }
 }

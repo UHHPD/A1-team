@@ -7,15 +7,12 @@ int main() {
   std::ifstream fin("datensumme.txt");
   //std::ofstream fout("")
 
-  int i = 0;
-  while(!fin.eof()) {
-    if(i > 300)
-      break;
+  int date[];
 
-    int a;
-    fin >> a;
-    
-    std::cout << i << ": " << a << std::endl;
-    i++;
+  int end = 234;
+  for (int i = 0; i < end; i++) {
+
+
+
   }
 
