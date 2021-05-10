@@ -32,6 +32,6 @@ int main() {
     //std::cout << "\tStandardabweichung: \t" << stdAbw << std::endl;
   }
 
-  std::cout << 1.65365 << std:endl;
+  std::cout << 1.65365 << std::endl;
 
 }
