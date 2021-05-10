@@ -47,8 +47,8 @@ int main() {
   std::ifstream mittelIn("mittelwerte.txt");
   std::ifstream varianzIn("varianzen.txt");
 
-  int mittelSumme = 0;
-  int varianzSumme = 0;
+  double mittelSumme = 0;
+  double varianzSumme = 0;
   num = 26;
   for (int i = 0; i < num; i++ ) {
     double temp = 0;
@@ -61,9 +61,7 @@ int main() {
   }
   mittelSumme /= num;
   varianzSumme /= num;
-  std::cout /*<< "Der Mittelwert der Mittelwerte ist:\t"*/ << mittelSumme << std::endl;
-  std::cout /*<< "Der Mittelwert der Varianzen ist:\t"*/ << varianzSumme << std::endl;
-
-  //std::cout << 2.4359 << std::endl;
+  //std::cout /*<< "Der Mittelwert der Mittelwerte ist:\t"*/ << mittelSumme << std::endl;
+  std::cout /*<< "Der Mittelwert der Varianzen ist:\t"*/ << varianzSumme << std::endl;;
 
 }

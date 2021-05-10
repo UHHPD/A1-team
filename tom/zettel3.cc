@@ -11,7 +11,7 @@ using namespace std;
 
 
 int main(){
-
+vector<int> zaehler(11);
 while(! fin.eof()){
   int b;
   fin>> b
