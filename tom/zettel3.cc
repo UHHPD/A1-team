@@ -12,5 +12,10 @@ using namespace std;
 
 int main(){
 
+while(! fin.eof()){
+  int b;
+  fin>> b
+}
+fin:close();
 
 }
