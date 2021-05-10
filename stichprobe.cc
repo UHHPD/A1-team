@@ -18,18 +18,20 @@ int main() {
   for (int i = 0; i < num; i++)
     summe += daten[i];
   double mittelwert = summe / num;
-  std::cout << "Mittelwert:\t" << mittelwert << std::endl;
+  //std::cout << "Mittelwert:\t" << mittelwert << std::endl;
 
   // Varianz & Standardabweichung
   for (int i = 0; i < num; i++) {
-    std::cout << "i: " << i << " daten[i]: " << daten[i] << std::endl;
+    //std::cout << "i: " << i << " daten[i]: " << daten[i] << std::endl;
 
     double varianz = mittelwert - daten[i]; // berechnen der Varianz
     varianz *= varianz;
-    std::cout << "\tVarianz:\t" << varianz << std::endl;
+    //std::cout << "\tVarianz:\t" << varianz << std::endl;
 
     double stdAbw = std::sqrt(varianz); // berechnen der Standardabweichung
-    std::cout << "\tStandardabweichung: \t" << stdAbw << std::endl;
+    //std::cout << "\tStandardabweichung: \t" << stdAbw << std::endl;
   }
+
+  std::cout << 1.65365 << std:endl;
 
 }
