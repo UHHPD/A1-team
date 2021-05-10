@@ -5,7 +5,6 @@
 int main() {
 
   std::ifstream fin("datensumme.txt");
-  //std::ofstream fout("")
 
   int num = 234;
   int daten[num];

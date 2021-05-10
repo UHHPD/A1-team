@@ -5,8 +5,8 @@
 int main() {
 
   std::ifstream fin("datensumme.txt");
-  std::ofstream varianzOut("Lennart/varianzen_L.txt");
-  std::ofstream mittelOut("Lennart/mittelwerte_L.txt");
+  std::ofstream varianzOut("varianzen.txt");
+  std::ofstream mittelOut("mittelwerte.txt");
 
   int num = 234;
   int daten[num];
@@ -44,8 +44,8 @@ int main() {
   mittelOut.close();
 
 
-  std::ifstream mittelIn("mittelwerte_Lennart.txt");
-  std::ifstream varianzIn("varianzen_Lennart.txt");
+  std::ifstream mittelIn("mittelwerte.txt");
+  std::ifstream varianzIn("varianzen.txt");
 
   int mittelSumme = 0;
   int varianzSumme = 0;
