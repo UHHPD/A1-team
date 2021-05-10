@@ -3,8 +3,8 @@
 #include <fstream>
 #include <iostream>
 
-std::ifstream fin "datensumme.txt"
-std::
+std::ifstream fin "datensumme.txt";
+std::ofstream ausgabe_txt "ausgabe ab-3";
 
 
 using namespace std;
