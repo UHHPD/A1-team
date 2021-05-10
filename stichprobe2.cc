@@ -61,6 +61,6 @@ int main() {
   }
   mittelSumme /= num;
   varianzSumme /= num;
-  std::cout << "Der Mittelwert der Mittelwerte ist:\t" << mittelSumme << std::endl;
-  std::cout << "Der Mittelwert der Varianzen ist:\t" << varianzSumme << std::endl;
+  //std::cout << "Der Mittelwert der Mittelwerte ist:\t" << mittelSumme << std::endl;
+  //std::cout << "Der Mittelwert der Varianzen ist:\t" << varianzSumme << std::endl;
 }
